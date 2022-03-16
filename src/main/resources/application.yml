@@ -17,10 +17,9 @@ graphiql:
 spring:
   data:
     mongodb:
-#      authentication-database: admin
-      database: local
-#      host: localhost
-#      port: 27017
-#      username: root
-#      password: root
-      uri: mongodb://root:root@localhost:27017/local
+      database: marveluniverse
+      host: localhost
+      port: 27017
+      username: root
+      password: root
+      uri: mongodb://localhost:27017/
