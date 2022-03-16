@@ -14,6 +14,12 @@ public class SuperCharactersRepo {
     public SuperCharactersRepo() { setSuperCharacters(); }
     private void setSuperCharacters() {
         SuperCharacter captainAmerica = SuperCharacter.builder().id("1").name("CAPTAIN_AMERICA").age(100).build();
+        SuperCharacter thor = SuperCharacter.builder().id("1").name("THOR").age(100).build();
+        SuperCharacter ironMan = SuperCharacter.builder().id("1").name("IRON_MAN").age(100).build();
+        SuperCharacter hulk = SuperCharacter.builder().id("1").name("HULK").age(100).build();
+        SuperCharacter spiderMan = SuperCharacter.builder().id("1").name("SPIDER_MAN").age(100).build();
+        SuperCharacter loki = SuperCharacter.builder().id("1").name("LOKI").age(100).build();
+        SuperCharacter batMan = SuperCharacter.builder().id("1").name("BAT_MAN").age(100).build();
         this.superCharacters.add(captainAmerica);
     }
     public List<SuperCharacter> getSuperCharacters() {

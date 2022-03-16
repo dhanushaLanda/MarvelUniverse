@@ -1,22 +1,20 @@
 package com.mkit.MarvelUniverse.resolvers;
 
 import com.mkit.MarvelUniverse.models.SuperCharacter;
-import com.mkit.MarvelUniverse.repos.SuperCharacterRepository;
+import com.mkit.MarvelUniverse.repos.SuperCharactersRepo;
 import graphql.kickstart.tools.GraphQLMutationResolver;
-import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Mutation implements GraphQLMutationResolver {
-//    @Autowired
-    private  SuperCharacterRepository superCharacterRepository;
+    private SuperCharactersRepo superCharacterRepository;
 
-    public Mutation(SuperCharacterRepository superCharacterRepository) {
+    public Mutation(SuperCharactersRepo superCharacterRepository) {
         this.superCharacterRepository = superCharacterRepository;
     }
 
     public SuperCharacter addCharacter(String name, int age){
-        SuperCharacter character = SuperCharacter.builder().name(name).age(age).build();
-        return superCharacterRepository.save(character);
+//        SuperCharacter character = SuperCharacter.builder().name(name).age(age).build();
+        return superCharacterRepository.addCharacter(name,age);
     }
 
 //    public SuperGroup addGroup(String name, Orientation orientation) { return superGroupRepo.addSuperGroup(name, orientation);}
