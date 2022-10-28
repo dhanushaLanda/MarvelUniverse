@@ -7,7 +7,6 @@ type SuperCharacter {
 type Query {
  characters: [SuperCharacter]!
  characterById(id: String): SuperCharacter
-
  groups: [SuperGroup]!
 }
 

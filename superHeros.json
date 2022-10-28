@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6231b14fb5881bc0cfffc5b0"
+  },
+  "name": "IRON_MAN",
+  "age": "1000"
+},{
+  "_id": {
+    "$oid": "6231b1e8b5881bc0cfffc5b1"
+  },
+  "name": "THOR",
+  "age": "1000"
+},{
+  "_id": {
+    "$oid": "6231b202b5881bc0cfffc5b2"
+  },
+  "name": "SPIDERMAN",
+  "age": "1000"
+},{
+  "_id": {
+    "$oid": "6231b21bb5881bc0cfffc5b3"
+  },
+  "name": "CAPTAIN_AMERICA",
+  "age": "1000"
+},{
+  "_id": {
+    "$oid": "6231b236b5881bc0cfffc5b4"
+  },
+  "name": "BAT_MAN",
+  "age": "1000"
+}]
