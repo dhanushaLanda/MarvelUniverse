@@ -1,0 +1,24 @@
+com/mkit/MarvelUniverse/models/SuperGroup.java
+ com.mkit.MarvelUniverse.models.SuperGroup
+ com.mkit.MarvelUniverse.models.SuperGroup$SuperGroupBuilder
+com/mkit/MarvelUniverse/config/MongoConfig.java
+ com.mkit.MarvelUniverse.config.MongoConfig
+com/mkit/MarvelUniverse/repos/SuperCharacterRepository.java
+ com.mkit.MarvelUniverse.repos.SuperCharacterRepository
+com/mkit/MarvelUniverse/models/Orientation.java
+ com.mkit.MarvelUniverse.models.Orientation
+com/mkit/MarvelUniverse/repos/SuperGroupRepo.java
+ com.mkit.MarvelUniverse.repos.SuperGroupRepo
+com/mkit/MarvelUniverse/models/SuperCharacter.java
+ com.mkit.MarvelUniverse.models.SuperCharacter
+ com.mkit.MarvelUniverse.models.SuperCharacter$SuperCharacterBuilder
+com/mkit/MarvelUniverse/repos/SuperCharactersRepo.java
+ com.mkit.MarvelUniverse.repos.SuperCharactersRepo
+com/mkit/MarvelUniverse/MarvelUniverseApplication.java
+ com.mkit.MarvelUniverse.MarvelUniverseApplication
+com/mkit/MarvelUniverse/resolvers/Mutation.java
+ com.mkit.MarvelUniverse.resolvers.Mutation
+com/mkit/MarvelUniverse/resolvers/Query.java
+ com.mkit.MarvelUniverse.resolvers.Query
+com/mkit/MarvelUniverse/service/SuperCharacterService.java
+ com.mkit.MarvelUniverse.service.SuperCharacterService

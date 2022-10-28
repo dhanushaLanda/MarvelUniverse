@@ -12,8 +12,12 @@ import org.springframework.stereotype.Service;
 public class SuperCharacterService {
     @Autowired
     SuperCharacterRepository superCharacterRepository;
-
+    private int pageNumber = 0;
     public Page<SuperCharacter> fetchAll(){
-        return superCharacterRepository.findAll(PageRequest.of(0,5, Sort.by("name")));
+        pageNumber = pageNumber==5 ? 0 : pageNumber;
+        Page<SuperCharacter> page = superCharacterRepository.findAll(PageRequest.of(pageNumber++, 3, Sort.by("name")));
+        System.out.println("total number of pages:"+page.getTotalPages());
+
+        return page;
     }
 }
